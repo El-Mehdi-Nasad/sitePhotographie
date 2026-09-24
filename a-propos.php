@@ -9,58 +9,56 @@
     </head>
     <body>
         <header>
-            <div>
-            <a href="index.php">
-                <img src="image/logo.png" 
+            <nav class="container">
+                <a href="index.php">
+                <img src="images/logo.png" 
                      alt="Logo Robbie Lens Photographie">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="a-propos.php">À propos</a></li>
-                </ul>
+                </a>
+                <a href="index.php">Accueil</a>
+                <a href="a-propos.php">À propos</a>
             </nav>
-            </div>
         </header>
         <main>
-            <h1>À propos de Robbie Lens</h1>
-            <div class="bordureAjoutée">
-            <p>
-            Photographe depuis plus de 5 ans, 
-            je réalise des reportages aux photos 
-            dynamiques et pertinentes pour vos projets 
-            de communication. Créativité, qualité, 
-            et sérénité pour vous ! Je gère tout, 
-            depuis la direction artistique, 
-            la réalisation du reportage, jusqu’à 
-            la livraison de vos photos retouchées, 
-            prêtes à l’emploi.
-            </p>
-            <h2>Services</h2>
-            <ul>
-                <li>Portrait seul ou à plusieurs,</li>
-                <li>Shooting mode,</li>
-                <li>Retouches sur mesure,</li>
-                <li>Développement.</li>
-            </ul>
-            </div>
-            <div>
-                <a href="" class="cta">VOIR MON PORTFOLIO</a>
-            </div>
+            <section class="sectionPropos">
+                <h1>À propos</h1>
+                <div class="bordureAjoutee">
+                    <p>
+                    Photographe depuis plus de 5 ans, 
+                    je réalise des reportages aux photos 
+                    dynamiques et pertinentes pour vos projets 
+                    de communication. Créativité, qualité, 
+                    et sérénité pour vous ! Je gère tout, 
+                    depuis la direction artistique, 
+                    la réalisation du reportage, jusqu’à 
+                    la livraison de vos photos retouchées, 
+                    prêtes à l’emploi.
+                    </p>
+                <h2>Services</h2>
+                <ul>
+                    <li>Portrait seul ou à plusieurs,</li>
+                    <li>Shooting mode,</li>
+                    <li>Retouches sur mesure,</li>
+                    <li>Développement.</li>
+                </ul>
+                </div>
+                <div>
+                    <a href="" class="cta">VOIR MON PORTFOLIO</a>
+                </div>
+            </section>
         </main>
         <footer>
-            <div>
+            <div class="container">
             <a href="index.php">
-                <img src="image/logo.png" 
+                <img src="images/logo.png" 
                      alt="Logo Robbie Lens Photographie">
-            </a><br>
+            </a>
             <a href="https://x.com" 
                target="_blank">
-               <img src="image/twitter.png" alt="X">
+               <img src="images/X_logo.png" alt="X">
             </a>
             <a href="https://www.instagram.com" 
                target="_blank">
-               <img src="image/instagram.png" 
+               <img src="images/instagram1.png" 
                     alt="Instagram">
             </a>
             </div>
