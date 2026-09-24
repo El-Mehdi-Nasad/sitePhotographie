@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*Pour les liens, j'ai appliqué la police manrope et 
+la size 1em et la couleur black et j'ai enlevé le soulignement*/
+a { 
+     color: #242424;
+     text-decoration: none;
+     font-family: 'Manrope', sans-serif;
+     font-size: 1em;
+    }
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Pour que les deux mot dans le paragraphe d'introduction
+soient en bleu et ne prennent pas de italique*/
+em {
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+/*Pour les titre du niveau 1 j ai appliquer 
+la police montserrat
+et la size 3.5em
+et la couleur #A5B4FC*/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    color: #A5B4FC;
+}
+
+/*Pour les titre du niveau 2 j ai appliquer 
+la police manrope
+et la size 1.1em*/
+p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+}
+
+/*Pour les éléments de liste, j'ai appliqué 
+la police manrope et la size 1em*/
+li {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+
+header, footer {
+    background-color: white;
+}
+
+header a:hover {
+    opacity: 0.5;
+}
+
+footer a:hover {
+    opacity: 0.5;
+}
+
+body {
+    background-color: #1F2039;
+}
+
+p,li,h2 {
+    color: #F9F8FF;
+}
+
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  border-radius: 50px;
+}
+
+a[class="cta"]:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.bordureAjoutée {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;  
+}

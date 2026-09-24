@@ -9,6 +9,7 @@
     </head>
     <body>
         <header>
+            <div>
             <a href="index.php">
                 <img src="image/logo.png" 
                      alt="Logo Robbie Lens Photographie">
@@ -19,9 +20,11 @@
                     <li><a href="a-propos.php">À propos</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
         <main>
             <h1>À propos de Robbie Lens</h1>
+            <div class="bordureAjoutée">
             <p>
             Photographe depuis plus de 5 ans, 
             je réalise des reportages aux photos 
@@ -40,18 +43,27 @@
                 <li>Retouches sur mesure,</li>
                 <li>Développement.</li>
             </ul>
+            </div>
+            <div>
+                <a href="" class="cta">VOIR MON PORTFOLIO</a>
+            </div>
         </main>
         <footer>
+            <div>
             <a href="index.php">
                 <img src="image/logo.png" 
                      alt="Logo Robbie Lens Photographie">
             </a><br>
             <a href="https://x.com" 
-            target="_blank"><img src="image/twitter.png" alt="X">
+               target="_blank">
+               <img src="image/twitter.png" alt="X">
             </a>
             <a href="https://www.instagram.com" 
-            target="_blank"><img src="image/instagram.png" 
-                                 alt="Instagram"></a>
+               target="_blank">
+               <img src="image/instagram.png" 
+                    alt="Instagram">
+            </a>
+            </div>
             <p>© 2026 Robbie Lens Photographie</p>
         </footer>
     </body>

@@ -3,10 +3,13 @@
     <head>
         <meta charset="utf-8">
         <title>Accueil - Robbie Lens Photographie</title>
-        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="style.css" 
+              type="text/css" 
+              rel="stylesheet">
     </head>
     <body>
         <header>
+            <div>
             <a href="index.php">
                 <img src="image/logo.png" 
                      alt="Logo Robbie Lens Photographie">
@@ -17,20 +20,26 @@
                     <li><a href="a-propos.php">À propos</a></li>
                 </ul>
             </nav>
+            </div>
         </header>
         <main>
             <h1>Photographie</h1><br>
-            <img src="image/robbie-lens.png" 
-                 alt="Photo de Robbie Lens">
             <p>
-                Où professionalisme s’allie avec passion. 
+                Où <em>professionalisme</em> s’allie 
+                avec <em>passion</em>. 
                 Depuis plus de 5 ans maintenant, 
                 j’exerce mon métier avec la passion 
                 qui m’anime : capturer l’essence de chaque 
                 instant.
             </p>
+            <img src="image/robbie-lens.png" 
+                 alt="Photo de Robbie Lens">
+            <div>
+                <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
+            </div>
         </main>
         <footer>
+            <div>
             <a href="index.php">
                 <img src="image/logo.png" 
                      alt="Logo Robbie Lens Photographie">
@@ -40,7 +49,9 @@
                                 alt="X"></a>
             <a href="https://www.instagram.com" 
                target="_blank"><img src="image/instagram.png" 
-                                    alt="Instagram"></a>
+                                    alt="Instagram">
+            </a>
+            </div>
             <p>© 2026 Robbie Lens Photographie</p>
         </footer>
     </body>
