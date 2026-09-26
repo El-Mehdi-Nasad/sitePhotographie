@@ -3,25 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>À propos - Robbie Lens Photographie</title>
-        <link href="style.css" 
+        <link href="style1.css" 
               type="text/css" 
               rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav class="container">
+
+         <header>
+            <nav class="container-nav">
+
                 <a href="index.php">
                 <img src="images/logo.png" 
-                     alt="Logo Robbie Lens Photographie">
-                </a>
+                     alt="Logo Robbie Lens Photographie" 
+                     class="margeLogo">
+                </a>   
                 <a href="index.php">Accueil</a>
                 <a href="a-propos.php">À propos</a>
+                <a href="portfolio.php">Portfolio</a>
+                
             </nav>
         </header>
+        
         <main>
-            <section class="sectionPropos">
+
+            <section class="section-1-style-apropos">
                 <h1>À propos</h1>
-                <div class="bordureAjoutee">
+
+                <div class="section-1-style-apropos-bordure">
                     <p>
                     Photographe depuis plus de 5 ans, 
                     je réalise des reportages aux photos 
@@ -41,28 +49,35 @@
                     <li>Développement.</li>
                 </ul>
                 </div>
+
                 <div>
-                    <a href="" class="cta">VOIR MON PORTFOLIO</a>
+                    <a href="" class="bouton-style-section-1-apropos">
+                        VOIR MON PORTFOLIO
+                    </a>
                 </div>
             </section>
+
         </main>
+
         <footer>
-            <div class="container">
+            <div class="container-footer">
             <a href="index.php">
                 <img src="images/logo.png" 
                      alt="Logo Robbie Lens Photographie">
             </a>
-            <a href="https://x.com" 
-               target="_blank">
-               <img src="images/X_logo.png" alt="X">
+            <a href="https://x.com" target="_blank">
+                <img src="images/X_logo.png" 
+                     alt="X">
             </a>
-            <a href="https://www.instagram.com" 
-               target="_blank">
-               <img src="images/instagram1.png" 
-                    alt="Instagram">
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="images/instagram1.png" 
+                     alt="Instagram">
             </a>
             </div>
-            <p>© 2026 Robbie Lens Photographie</p>
         </footer>
+
+        <aside>
+            <p>© 2026 Robbie Lens Photographie</p>
+        </aside>
     </body>
 </html>
