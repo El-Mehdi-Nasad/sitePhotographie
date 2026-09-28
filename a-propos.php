@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>À propos - Robbie Lens Photographie</title>
-        <link href="style1.css" 
+        <link href="style1.css?v=<?php echo filemtime('style1.css'); ?>" 
               type="text/css" 
               rel="stylesheet">
     </head>
@@ -12,14 +12,19 @@
          <header>
             <nav class="container-nav">
 
-                <a href="index.php">
-                <img src="images/logo.png" 
-                     alt="Logo Robbie Lens Photographie" 
-                     class="margeLogo">
+                <a href="index.php" class="container-nav-elm1">
+                    <img src="images/logo.png" 
+                         alt="Logo Robbie Lens Photographie">
                 </a>   
-                <a href="index.php">Accueil</a>
-                <a href="a-propos.php">À propos</a>
-                <a href="portfolio.php">Portfolio</a>
+                <a href="index.php" class="container-nav-elm2">
+                    Accueil
+                </a>
+                <a href="a-propos.php" class="container-nav-elm3">
+                    À propos
+                </a>
+                <a href="portfolio.php" class="container-nav-elm4">
+                    Portfolio
+                </a>
                 
             </nav>
         </header>
@@ -51,7 +56,7 @@
                 </div>
 
                 <div>
-                    <a href="" class="bouton-style-section-1-apropos">
+                    <a href="portfolio.php" class="bouton-style-section-1-apropos">
                         VOIR MON PORTFOLIO
                     </a>
                 </div>
@@ -61,15 +66,17 @@
 
         <footer>
             <div class="container-footer">
-            <a href="index.php">
+            <a href="index.php" class="container-footer-elm1">
                 <img src="images/logo.png" 
                      alt="Logo Robbie Lens Photographie">
             </a>
-            <a href="https://x.com" target="_blank">
+            <a href="https://x.com" target="_blank"
+               class="container-footer-elm2">
                 <img src="images/X_logo.png" 
                      alt="X">
             </a>
-            <a href="https://www.instagram.com" target="_blank">
+            <a href="https://www.instagram.com" target="_blank"
+               class="container-footer-elm3">
                 <img src="images/instagram1.png" 
                      alt="Instagram">
             </a>
