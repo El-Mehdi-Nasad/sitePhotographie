@@ -17,7 +17,9 @@
                 <a href="index.php" class="container-nav-elm1">
                     <img src="images/logo.png" 
                          alt="Logo Robbie Lens Photographie">
-                </a>   
+                </a>
+
+                <div class="container-nav-lien">   
                 <a href="index.php" class="container-nav-elm2">
                     Accueil
                 </a>
@@ -27,6 +29,7 @@
                 <a href="portfolio.php" class="container-nav-elm4">
                     Portfolio
                 </a>
+                </div>
                 
             </nav>
         </header>
@@ -207,10 +210,13 @@
 
         <footer>
             <div class="container-footer">
+
             <a href="index.php" class="container-footer-elm1">
                 <img src="images/logo.png" 
                      alt="Logo Robbie Lens Photographie">
             </a>
+
+            <div>
             <a href="https://x.com" target="_blank"
                class="container-footer-elm2">
                 <img src="images/X_logo.png" 
@@ -221,6 +227,8 @@
                 <img src="images/instagram1.png" 
                      alt="Instagram">
             </a>
+            </div>
+            
             </div>
         </footer>
 
