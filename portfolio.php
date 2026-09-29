@@ -36,7 +36,16 @@
 
         <main>
             <section class="section-1-style-portfolio">
-                <h1>Portfolio</h1>
+              <div class="container-section-1-portfolio">
+                <div class="container-section-1-colonne-1-portfolio">
+                  <h1>Portfolio</h1>
+                </div>
+
+                <div class="container-section-1-colonne-2-portfolio">
+                   <img src="images/robbie-lens.png" 
+                        alt="Photo de Robbie Lens">
+                </div>
+              </div>
             </section>
 
             <section class="section-2-style-portfolio">

@@ -35,33 +35,48 @@
         <main>
 
             <section class="section-1-style-apropos">
-                <h1>À propos</h1>
+                
 
-                <div class="section-1-style-apropos-bordure">
-                    <p>
-                    Photographe depuis plus de 5 ans, 
-                    je réalise des reportages aux photos 
-                    dynamiques et pertinentes pour vos projets 
-                    de communication. Créativité, qualité, 
-                    et sérénité pour vous ! Je gère tout, 
-                    depuis la direction artistique, 
-                    la réalisation du reportage, jusqu’à 
-                    la livraison de vos photos retouchées, 
-                    prêtes à l’emploi.
-                    </p>
-                <h2>Services</h2>
-                <ul>
-                    <li>Portrait seul ou à plusieurs,</li>
-                    <li>Shooting mode,</li>
-                    <li>Retouches sur mesure,</li>
-                    <li>Développement.</li>
-                </ul>
-                </div>
-
-                <div>
-                    <a href="portfolio.php" class="bouton-style-section-1-apropos">
-                        VOIR MON PORTFOLIO
-                    </a>
+                <div class="container-section-1-propos">
+                    
+                    <div class="container-section-1-colonne-1-propos">
+                        <h1>À propos</h1>
+                        <div class="section-1-style-apropos-bordure">
+                            
+                            <p>
+                            Photographe depuis plus de 5 ans, 
+                            je réalise des reportages aux photos 
+                            dynamiques et pertinentes pour vos projets 
+                            de communication. Créativité, qualité, 
+                            et sérénité pour vous ! Je gère tout, 
+                            depuis la direction artistique, 
+                            la réalisation du reportage, jusqu’à 
+                            la livraison de vos photos retouchées, 
+                            prêtes à l’emploi.
+                            </p>
+                
+                            <h2>Services</h2>
+                
+                            <ul>
+                                <li>Portrait seul ou à plusieurs,</li>
+                                <li>Shooting mode,</li>
+                                <li>Retouches sur mesure,</li>
+                                <li>Développement.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bouton-style-section-1-apropos">
+                            <a href="portfolio.php">
+                               VOIR MON PORTFOLIO
+                            </a>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class=container-section-1-colonne-2-propos>
+                        <img src="images/robbie-lens.png" 
+                             alt="Photo de Robbie Lens">
+                    </div>
                 </div>
             </section>
 

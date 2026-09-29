@@ -35,47 +35,120 @@
         <main>
 
             <section class="section-1-style-main">
+
                 <div class="container-section-1-introduction">
-                    <h1 class="container-section-1-introduction-elm1">
-                        Photographie
-                    </h1>
-                    <p class="container-section-1-introduction-elm2">
-                    Où <em>professionalisme</em> s’allie 
-                    avec <em>passion</em>. 
-                    Depuis plus de 5 ans maintenant, 
-                    j’exerce mon métier avec la passion 
-                    qui m’anime : capturer l’essence de chaque 
-                    instant.
-                    </p>
                     
-                    <div class="container-section-1-introduction-elm3">
-                    <a href="" class="bouton-style-section-1-main">
-                        UN PROJET ? ÉCRIVEZ-MOI
-                    </a>
+                    <div class="container-section-1-colonne-1">
+                        <h1 class="container-section-1-introduction-elm1">
+                        Robbie Lens Photographie
+                        </h1>
+                        
+                        <p class="container-section-1-introduction-elm2">
+                        Où <em>professionalisme</em> s’allie 
+                        avec <em>passion</em>. 
+                        Depuis plus de 5 ans maintenant, 
+                        j’exerce mon métier avec la passion 
+                        qui m’anime : capturer l’essence de chaque 
+                        instant.
+                        </p>
+                        
+                        <div class="container-section-1-introduction-elm3">
+                            <a href="" class="bouton-style-section-1-main">
+                            UN PROJET ? ÉCRIVEZ-MOI
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container-section-1-colonne-2">
+                            <img src="images/robbie-lens.png" 
+                                 alt="Photo de Robbie Lens">
                     </div>
                     
-                    <div class="container-section-1-introduction-elm4">
-                        <img src="images/robbie-lens.png" 
-                             alt="Photo de Robbie Lens">
-                    </div>
                 </div>
             </section> 
             
             <section class="section-2-style-main">
                 <h2>Mon dernier projet</h2>
                 <div class="container-section-2-monDernierPro">
-                    <img src="images/accueil/element-1.png"
-                         alt="la premiere photo de mon dernier pr">
-                    <img src="images/accueil/element-2.png"
-                         alt="la premiere photo de mon dernier pr">
-                    <img src="images/accueil/element-3.png"
-                         alt="la premiere photo de mon dernier pr">
-                    <img src="images/accueil/element-4.png"
-                         alt="la premiere photo de mon dernier pr">
-                    <img src="images/accueil/element-5.png"
-                         alt="la premiere photo de mon dernier pr">
-                    <img src="images/accueil/element-6.png"
-                         alt="la premiere photo de mon dernier pr">
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-1.png"
+                           target="_blank">
+                            <img src="images/accueil/element-1.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+
+                    </div>
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-2.png"
+                           target="_blank">
+                            <img src="images/accueil/element-2.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+                       
+                    </div>
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-3.png"
+                           target="_blank">
+                            <img src="images/accueil/element-3.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+                       
+                    </div>
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-4.png"
+                           target="_blank">
+                            <img src="images/accueil/element-4.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+                       
+                    </div>
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-5.png"
+                           target="_blank">
+                            <img src="images/accueil/element-5.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+                       
+                    </div>
+                    
+                    <div class="element-point-rapport-image-note">
+                        
+                        <a href="images/accueil/element-6.png"
+                           target="_blank">
+                            <img src="images/accueil/element-6.png"
+                                 alt="la premiere photo de mon dernier pr">
+                            <p class="positionner-la-note">
+                                Voir la photo
+                            </p>
+                       </a>
+                       
+                    </div>
+                    
                 </div>
             </section>
             
