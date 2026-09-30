@@ -80,6 +80,30 @@
                 </div>
             </section>
 
+            <section class="section-2-style-apropos-tableau">
+                <h2>Tarifs</h2>
+                
+                <table>
+                    <tr>
+                        <th>Désignation</th>
+                        <th>Quantité</th>
+                        <th>Prix</th>
+                    </tr>
+
+                    <tr>
+                        <td>Retouches photo studio professionnel</td>
+                        <td>x 800 photos</td>
+                        <td>3 200€/800 photos</td>
+                    </tr>
+
+                    <tr>
+                        <td>Assistant photo lumière professionnel</td>
+                        <td>x 2 sets studio</td>
+                        <td>1 500€/journée</td>
+                    </tr>
+                </table>
+            </section>
+
         </main>
 
         <footer>

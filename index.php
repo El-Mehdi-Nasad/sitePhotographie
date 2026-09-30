@@ -151,6 +151,33 @@
                     
                 </div>
             </section>
+
+            <section class="section-3-style-main">
+                <h2>Parlons de votre projet</h2>
+                <form action="" method="get">
+
+                    <label for="prenom">Votre nom complet</label>    
+                    <input type="text" 
+                           name="nom"
+                           id="prenom" 
+                           placeholder="Nom Complet">
+
+                    <label for="email">Votre adresse mail</label>
+                    <input type="email" 
+                           name="email"
+                           id="email"
+                           placeholder="Email">
+                           
+                    <label for="message">Votre message</label>       
+                    <textarea
+                           name="message"
+                           id="message">
+                    </textarea>
+
+                    <input type="submit" value="Envoyer">
+                    
+                </form>
+            </section>
             
         </main>
 
