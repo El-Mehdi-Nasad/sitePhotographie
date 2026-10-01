@@ -53,7 +53,7 @@
                         </p>
                         
                         <div class="container-section-1-introduction-elm3">
-                            <a href="" class="bouton-style-section-1-main">
+                            <a href="#formulaire" class="bouton-style-section-1-main">
                             UN PROJET ? ÉCRIVEZ-MOI
                             </a>
                         </div>
@@ -154,28 +154,34 @@
 
             <section class="section-3-style-main">
                 <h2>Parlons de votre projet</h2>
-                <form action="" method="get">
 
-                    <label for="prenom">Votre nom complet</label>    
-                    <input type="text" 
-                           name="nom"
-                           id="prenom" 
-                           placeholder="Nom Complet">
-
-                    <label for="email">Votre adresse mail</label>
-                    <input type="email" 
-                           name="email"
-                           id="email"
-                           placeholder="Email">
-                           
-                    <label for="message">Votre message</label>       
-                    <textarea
-                           name="message"
-                           id="message">
-                    </textarea>
-
-                    <input type="submit" value="Envoyer">
+                <form action="" method="get" id="formulaire">
                     
+                    <div class="container-section-3-formulaire1">
+                            
+                        <input type="text" 
+                               name="nom"
+                               id="prenom"
+                               maxlength="20" 
+                               placeholder="Nom Complet">
+                        
+                        <input type="email" 
+                               name="email"
+                               id="email"
+                               placeholder="Email">
+    
+                    </div>       
+
+                    <div class="container-section-3-formulaire2">
+                        
+                        <textarea name="message" 
+                                  id="message"
+                                  placeholder="Votre message"></textarea>
+
+                        <input type="submit" value="Envoyer" id="bouton-envoyer">
+
+                    </div>
+                        
                 </form>
             </section>
             
