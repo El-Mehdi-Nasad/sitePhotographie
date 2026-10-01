@@ -163,24 +163,23 @@
                                name="nom"
                                id="prenom"
                                maxlength="20" 
+                               size="60"
                                placeholder="Nom Complet">
                         
                         <input type="email" 
                                name="email"
                                id="email"
+                               size="60"
                                placeholder="Email">
     
-                    </div>       
-
-                    <div class="container-section-3-formulaire2">
-                        
-                        <textarea name="message" 
-                                  id="message"
-                                  placeholder="Votre message"></textarea>
-
-                        <input type="submit" value="Envoyer" id="bouton-envoyer">
-
                     </div>
+                    
+                    <textarea name="message" 
+                              id="message"
+                              rows="6"
+                              placeholder="Votre message"></textarea>
+
+                    <input type="submit" value="Envoyer" id="bouton-envoyer">
                         
                 </form>
             </section>
