@@ -117,7 +117,7 @@
             <div>
             <a href="https://x.com" target="_blank"
                class="container-footer-elm2">
-                <img src="images/X_logo.png" 
+                <img src="images/x_logo.png" 
                      alt="X">
             </a>
             <a href="https://www.instagram.com" target="_blank"
