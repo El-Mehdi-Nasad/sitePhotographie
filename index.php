@@ -164,20 +164,23 @@
                                id="prenom"
                                maxlength="20" 
                                size="60"
-                               placeholder="Nom Complet">
+                               placeholder="Nom Complet"
+                               required>
                         
                         <input type="email" 
                                name="email"
                                id="email"
                                size="60"
-                               placeholder="Email">
+                               placeholder="Email"
+                               required>
     
                     </div>
                     
                     <textarea name="message" 
                               id="message"
                               rows="6"
-                              placeholder="Votre message"></textarea>
+                              placeholder="Votre message"
+                              required></textarea>
 
                     <input type="submit" value="Envoyer" id="bouton-envoyer">
                         

@@ -143,6 +143,7 @@ a[class="bouton-style-section-1-main"]:hover {
 
 .section-2-style-main {
     background-color: white;
+    padding-bottom: 5%;
 }
 
 .container-section-2-monDernierPro {
@@ -244,6 +245,10 @@ form {
 
 #bouton-envoyer:hover {
     background: linear-gradient(#696484, #8788BA);
+}
+
+input:focus, textarea:focus {
+    outline: none;
 }
 
 
