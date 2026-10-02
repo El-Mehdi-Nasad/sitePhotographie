@@ -15,6 +15,29 @@ body {
 /*Partie concernant le style appliquer sur le header 
 et pour la balise nav pour le menu
 et le style appliquer sur le footer commun*/
+@media screen and (max-width: 996px) {
+    header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+  .container-nav-lien {
+    margin-top: 10px;
+}
+
+  .container-section-1-introduction {
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-section-1-colonne-2 {
+    margin-bottom: 10px;
+}
+
+}
+
 header a, footer a { 
      color: #242424;
      text-decoration: none;
@@ -25,8 +48,8 @@ header a, footer a {
 header {
     background-color: white;
     /*position: sticky;
-    top: 0;*/
-    z-index: 1000;
+    top: 0;
+    z-index: 1000;*/
 }
 
 footer {
@@ -103,15 +126,15 @@ footer a:hover {
 
 .container-section-1-introduction {
     display: flex;
-    padding: 6% 12%;
+    padding: 6% 10%;
+    flex-wrap: wrap;
 }
 
 .container-section-1-colonne-1 {
-    width: 60%;
+    width: 50%;
 }
 
 .container-section-1-colonne-2 {
-    width: 50%;
     padding-left: 10%;
 }
 .container-section-1-introduction-elm3 {
@@ -152,6 +175,7 @@ a[class="bouton-style-section-1-main"]:hover {
     grid-template-rows: 300px 300px;
     gap: 20px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .container-section-2-monDernierPro img {
