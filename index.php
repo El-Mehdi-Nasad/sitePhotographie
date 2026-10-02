@@ -63,7 +63,8 @@
 
                     <div class="container-section-1-colonne-2">
                             <img src="images/robbie-lens.png" 
-                                 alt="Photo de Robbie Lens">
+                                 alt="Photo de Robbie Lens"
+                                 class="container-section-1-introduction-elm4">
                     </div>
                     
                 </div>
